@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graph" Version="3.18.0" />
+    <PackageReference Include="Microsoft.Graph.Auth" Version="1.0.0-preview.5" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.21.0" />
+    <PackageReference Include="Microsoft.Identity.Client.Extensions.Msal" Version="2.16.2" />
+    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.20518.12000" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Client.Policy.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.Office.Client.Policy.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Client.TranslationServices.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.Office.Client.TranslationServices.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ProjectServer.Client.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.ProjectServer.Client.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.DocumentManagement.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.DocumentManagement.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Sharepoint.Client.Publishing.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.Publishing.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.Runtime.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime.Windows">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\net45\Microsoft.SharePoint.Client.Runtime.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Search.Applications.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.Search.Applications.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Search.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.Search.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Taxonomy.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.Taxonomy.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.UserProfiles.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.UserProfiles.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.WorkflowServices.Portable">
+      <HintPath>C:\Users\test\.nuget\packages\microsoft.sharepointonline.csom\16.1.20518.12000\lib\portable-net45+netcore45+wpa81\Microsoft.SharePoint.Client.WorkflowServices.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC", "POC\POC.csproj", "{B4F91CBB-056A-43FD-A44E-324ABD7F4066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.APIServer", "POC.APIServer\POC.APIServer.csproj", "{622E991E-5B19-4973-AFEF-F191BFA3FFD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F91CBB-056A-43FD-A44E-324ABD7F4066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F91CBB-056A-43FD-A44E-324ABD7F4066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F91CBB-056A-43FD-A44E-324ABD7F4066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F91CBB-056A-43FD-A44E-324ABD7F4066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622E991E-5B19-4973-AFEF-F191BFA3FFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622E991E-5B19-4973-AFEF-F191BFA3FFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622E991E-5B19-4973-AFEF-F191BFA3FFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622E991E-5B19-4973-AFEF-F191BFA3FFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C73AA5B-C59C-4C92-AB6B-1D530B9178C7}
+	EndGlobalSection
+EndGlobal
