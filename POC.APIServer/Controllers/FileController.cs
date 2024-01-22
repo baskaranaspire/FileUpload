@@ -9,7 +9,7 @@ using Microsoft.Extensions.Primitives;
 using Microsoft.SharePoint.Client;
 using IO = System.IO;
 
-namespace POC.APIServer.Controllers
+namespace Aspire.FileUploadPOC.APIServer.Controllers
 {
     
     [Route("[controller]")]
@@ -45,7 +45,7 @@ namespace POC.APIServer.Controllers
 
 
                     ClientContext context = new ClientContext(siteUrl);
-                    context.Credentials = new SharePointOnlineCredentials(userName, password);
+                   // context.Credentials = new SharePointOnlineCredentials(userName, password);
                     Web web = context.Web;
 
                     List list = web.Lists.GetByTitle("POCFileUpload");

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC", "POC\POC.csproj", "{B4F91CBB-056A-43FD-A44E-324ABD7F4066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.FileUploadPOC", "POC\Aspire.FileUploadPOC.csproj", "{B4F91CBB-056A-43FD-A44E-324ABD7F4066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.APIServer", "POC.APIServer\POC.APIServer.csproj", "{622E991E-5B19-4973-AFEF-F191BFA3FFD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.FileUploadPOC.APIServer", "POC.APIServer\Aspire.FileUploadPOC.APIServer.csproj", "{622E991E-5B19-4973-AFEF-F191BFA3FFD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,7 +15,7 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace POC.APIServer
+namespace Aspire.FileUploadPOC.APIServer
 {
     public class Startup
     {
