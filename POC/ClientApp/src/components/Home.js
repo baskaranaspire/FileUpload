@@ -9,6 +9,7 @@ const initialFileState = {
   metaData4: '',
   metaData5: '',
   metaData6: '',
+  metaData7: '',
 }
 
 const reducer = (fileState, action) => {
